@@ -1,0 +1,5 @@
+{
+	"mysql": {"server_root_password": "ChefRules13", "server_debian_password": "ChefRules13", "server_repl_password": "ChefRules13"},
+	"lampstack": {"db_password": "ChefRules13"},
+	"run_list": [ "recipe[apt]", "recipe[lampstack::checkout]" ]
+}
