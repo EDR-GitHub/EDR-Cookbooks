@@ -36,7 +36,7 @@ end
 subversion "parcel" do
 	repository "http://edrscm/svn/Parcel/trunk/webroot"
 	destination "/var/www"
-	svn_username "EDR\jdzialoex"
-	svn_password "Back2Briars"
+	svn_username "username"
+	svn_password "xxxxxxxxx"
 	action :checkout
 end
