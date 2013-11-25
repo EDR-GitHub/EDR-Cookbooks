@@ -15,6 +15,8 @@ include_recipe "php::module_mysql"
 include_recipe "apache2::mod_php5"
 include_recipe "mysql::ruby"
 include_recipe "subversion::client"
+#include_recipe "zend::parcel"
+#include_recipe "java"
 
 apache_site "default" do
 	enable true
